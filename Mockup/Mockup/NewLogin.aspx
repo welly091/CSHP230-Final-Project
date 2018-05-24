@@ -9,6 +9,7 @@
     <script runat="server">
         protected void Button_Click(object sender, EventArgs e)
             {
+                
                 string filePath = MapPath("~/App_Data/loginInfo.txt"); 
                 if (!System.IO.File.Exists(filePath)) // If the text. file doesn't exist, create a new one.
                 {

@@ -19,7 +19,9 @@
     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
     <br />
     <br />
-    <asp:Button ID="Register_button" runat="server" Text="Register"/>
+    <asp:Button ID="Register_enterButton" runat="server" Text="Register"/>
+    &nbsp;&nbsp;
+    <asp:Button ID="Register_dropButton" runat="server" Text="Drop" />
     <br />
     <br />
     </div>

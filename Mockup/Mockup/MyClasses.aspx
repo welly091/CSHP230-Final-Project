@@ -6,7 +6,17 @@
 
 
 <asp:Content ID="Content5" ContentPlaceHolderID="contentSection" runat="server">
-    <asp:Label ID="myClasses" runat="server"></asp:Label>
+    <br />
+    <asp:Label ID="myClasses" runat="server"> The classese you registered: </asp:Label>
+    <br />
+    <br />
+    <asp:Table ID="tableClasses" runat="server" Borderwidth="2px" GridLines="Both">
+        <asp:TableRow>
+            <asp:TableCell>Class number</asp:TableCell>
+            <asp:TableCell >Class title</asp:TableCell>
+        </asp:TableRow>
+    </asp:Table>
+    <br />
 </asp:Content>
 <asp:Content ID="Content6" ContentPlaceHolderID="ContentPlaceHolder5" runat="server">
 </asp:Content>

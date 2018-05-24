@@ -31,12 +31,21 @@ namespace Mockup {
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
         
         /// <summary>
-        /// Register_button control.
+        /// Register_enterButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Register_button;
+        protected global::System.Web.UI.WebControls.Button Register_enterButton;
+        
+        /// <summary>
+        /// Register_dropButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Register_dropButton;
     }
 }
